@@ -25,7 +25,7 @@ COPY requirements.txt .
 RUN pip3 install --no-cache-dir -r requirements.txt
 
 # 권한 설정 및 실행 유저 지정
-USER appuser:appgroup
+# USER appuser:appgroup
 
 # 환경 변수
 ENV PYTHONDONTWRITEBYTECODE=1
